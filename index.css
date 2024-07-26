@@ -1,0 +1,74 @@
+body
+{
+    color: #fff;
+    font-family: "Arial";
+    margin: 0;
+    overflow: hidden;
+    user-select: none;
+    image-rendering: pixelated;
+}
+
+#renderer
+{
+    background: #aaaaaa;
+}
+
+#port 
+{
+    position: absolute;
+    right: 1em;
+    top: 1em; 
+    
+    background-image: url("./tile.png");
+    background-size: 16px 16px;
+}
+#port canvas
+{
+    border: 2px solid #fff;
+    border-radius: 0.25em;
+}
+
+#data 
+{
+    position: absolute;
+    left: 1em;
+    top: 1em;   
+}
+
+#data *
+{
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+h1
+{
+    font-size: 4em;
+    margin-top: 0 !important;
+    margin-bottom: 0.1em !important;
+}
+
+h4
+{
+    margin-top: -0.5em !important;
+    margin-bottom: 4em !important;
+}
+
+button
+{
+    background: orange;
+    border: none;
+    border-radius: 0.25em;
+    box-shadow: rgb(211, 138, 4) -4px 4px;
+    cursor: pointer;
+    font-family: "Trebuchet MS";
+    font-size: 1.25em;
+    padding: 0.25em 0.5em;
+}
+
+button:hover
+{
+    background: rgb(255, 188, 62);
+    box-shadow: orange -4px 4px;
+    color: #fff;
+}
